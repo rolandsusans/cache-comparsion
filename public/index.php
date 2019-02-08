@@ -7,7 +7,7 @@ use Demo\Processor\Factory\DiskProcessorFactory;
 require_once __DIR__ . '/../bootstrap/app.php';
 
 apcu_clear_cache();
-const USE_CACHE = true;
+const USE_CACHE = false;
 const TIMES     = 10;
 
 $startTime = microtime(true);
