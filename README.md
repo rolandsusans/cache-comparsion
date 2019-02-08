@@ -1,4 +1,4 @@
-#Setup
+## Setup
 1. build 
     ```bash 
     docker compose up -d
@@ -7,9 +7,10 @@
     ```bash 
     docker run --rm --interactive --tty --volume $PWD:/app composer ìnstall --ignore-platform-reqs
     ```
-3. go [here](localhost::8080)
+3. go to [localhsot](http://localhost:8080/)
 
-#Results
+
+## Results
 
 ```
 Cached APCu | Times: 10 | Process took 1.7811379432678 seconds.
